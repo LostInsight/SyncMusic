@@ -12,11 +12,7 @@ export default new Router({
       name: 'Station',
       component: Station
     },{
-      path:'/Music/:configid/:admin',
-      name:'Music',
-      component : Music
-    },{
-      path:'/Music/:configid/',
+      path:'/Music/:configid',
       name:'Music',
       component : Music
     }
